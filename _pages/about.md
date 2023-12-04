@@ -7,8 +7,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hi, my name is Mudit Dhawan, and I am a senior at [IIIT Delhi](https://www.iiitd.ac.in/), India. I am interested in **machine learning** and **signal processing algorithms** for **multimedia systems** and their application to high-impact problems in **computational social sciences**. 
+Hi, my name is Mudit Dhawan, I am currently a Research Fellow at [Microsoft Research India (MSRI)](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/), where I am supervised by [Dr. Manik Varma](http://manikvarma.org/). My work at MSR India has been in the broad area of Efficient and Scalable Machine Learning with an emphasis on real-world deployability. 
 
-I am exploring the field of emotion-controlled conversational agents in task-oriented dialogue systems as a visiting student researcher at [SenticNet Lab](https://sentic.net/) at Nanyang Technological University (NTU), Singapore, under the guidance of [Prof. Erik Cambria](https://sentic.net/erikcambria/). I'm also a researcher at [PreCog Lab, LTRC](https://precog.iiit.ac.in/), IIIT Hyderabad, under the supervision of [Prof. Ponnurangam Kumaraguru](https://www.iiit.ac.in/people/faculty/PKguru/), where I have been exploring the field of Computational Social Science, with a particular emphasis on Multimodal Fake News and Hate Speech detection. I am fortunate to have also had the opportunity to work under and learn closely from [Prof. Rajiv Ratn Shah](https://midas.iiitd.edu.in/team/rajiv-ratn-shah.html) (IIIT Delhi) and [Prof. Rajesh Sharma](https://rajeshsharma.cs.ut.ee/index.php/Main/HomePage) (University of Tartu, Estonia). 
+Prior to joining Microsoft Research, I completed my undergraduate degree from [IIIT Delhi](https://www.iiitd.ac.in/). During my undergrad, I was a research assistant at [Precog](https://precog.iiit.ac.in/) advised by the [Prof. Ponnurangam Kumaraguru “PK”](https://scholar.google.com/citations?user=MfzQyP8AAAAJ), where I worked on AI for Social Good, with a focus on multimodal misinformation detection.
 
 If you are interested in research collaboration, please drop me an email.

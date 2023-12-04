@@ -11,7 +11,7 @@ link: 'https://drive.google.com/file/d/1-2MS3Sz4P8XnbP-mpAJrsDp8-wCS4m_-/view?us
 github: 'https://github.com/mudit-dhawan/Multimodal-Fake-News-Detection-Systems'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
-![game-on](/images/pubs/btech-thesis-fnd.png) <br> <br> 
+<!-- ![game-on](/images/pubs/btech-thesis-fnd.png) <br> <br>  -->
 **Mudit Dhawan**, *Bachelor's Thesis*, IIIT Delhi<br> 
 *Advisors:* Prof. Ponnurangam Kumaraguru and Prof. Rajiv Ratn Shah <br>
 *Keywords:* Multimodal Fake News, Indian Reginal Languages, Explainable System, Multiple Images, Contrastive Learning<br>

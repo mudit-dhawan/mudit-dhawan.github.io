@@ -5,9 +5,61 @@ permalink: /projects/
 author_profile: true
 ---
 
-## Disentanglement Perspective to Audio Style Transfer 
-Advisor: Prof. Rajiv Ratn Shah
-- A variational autoencoder (VAE) based approach to learn disentangled representations for specified and unspecified factors of variation for audio signals to help with audio style transfer.
+## Multi-Intent Combination In Session-Based Recommendation Systems using LLMs
+Advisors:  Dr. Yashoteja Prabhu,Dr. Amit Sharma, Dr. Manik Varma
+- Identified three properties of GPT-4 based models in session-based recommendations settings: (i) find diverse relevant intents in session history, (ii) combine intents to find sequential recommendations, and (iii) world knowledge.
+- Performed task-specific distillation using Low-Rank Adaptation of desired properties to increase inference speedup by ∼ 100 times by using smaller LLMs (1-7 billion parameters).
+- High alignment between GPT-4 and task-specific distilled model on relevance, and diversity indicated by high cosine similarity between recommendations.
+
+* * *
+
+## Efficient Modelling For Cross-Encoder based Ranking Systems 
+Advisors: Dr. Manik Varma
+- Highlighted the inconsistency in current research of pair-wise query-item ranking systems and the real-world need to rank thousands of items for a given query.
+- Proposed a novel and efficient paradigm of jointly scoring multiple items per query in one shot.
+- Proposed algorithm led to 10×faster scoring than pairwise, with negligible drop in performance (within 1% of pair-wise cross-encoders). Under review at the ACM Web Conference 2024, and would be submitted for a US patent.
+
+
+* * * 
+## Denoising Hard Negatives using LLMs For Robust Representation Learning in Dense Retrieval 
+Advisors: Dr. Manik Varma
+- Identified the problem of high probability of hard negatives being false negatives in large-scale dense retrieval datasets.
+- Proposed a novel scoring method to use Large Language Models like GPT-4 as a large-scale oracle to denoise hard negatives, which led to 30×increase in the throughput and significantly reduced API costs.
+- Led to ∼0.6% absolute gain in clicks and other system-specific metrics on a large scale search engine during online A-B tests in English markets.
+
+* * * 
+
+## Query Auto-Complete (QAC) using Extreme Classification and Statistical Language Models 
+Advisors: Dr. Yashoteja Prabhu, Dr. Manish Gupta, Dr. Manik Varma
+- Proposed an imporvement over XC based QAC solutions by replacing suffix classifiers with small localized statistical language models to improve performance on head and torso queries.
+- Utilized Kneser-Ney smoothing and a weighted finite state transducer (FST) to represent the n-gram language model over queries containing a cluster of suffixes to better memorize frequency based patterns in the data.
+- This framework led to a 6 point increase in Success Rate @ 10 and 5 point increase in Mean Reciprocal Rank @ 10 on publicly available dataset over XC baseline.
+
+* * *
+
+## Query Auto-Complete (QAC) using Extreme Classification 
+Advisors: Dr. Yashoteja Prabhu, Dr. Manish Gupta, Dr. Manik Varma
+- Proposed a novel reformulation of QAC as an XC task, which led to significant improvement over NLG based solutions.
+- To overcome the sparsity of training data based on clicks, added popularity weighted augmentation to vanilla XC loss to improve performance on tail and torso prefixes.
+- Our framework achieved SOTA performance while compared to NLG models with an improvement of ∼10% on Mean Reciprocal Rank@10 and ∼15% on Success rate@10 on publicly available dataset.
+- When deployed in en-markets, our method led to 1% gain in CTR (Click Through Rate) and a 4% gain in the average number of suggestions in production. In non-en multilingual markets, it gave a relative increase of 0.8% increase in CTR and a 3% gain in suggestion density in production.
+- On Bing AI Chat Platform let an 8% increase in KSPQ (keystrokes saved per query), and 6% increase in acceptance rate for long queries
+
+
+* * *
+
+## Graph Based Multimodal Fake News Detection [[code]](https://github.com/mudit-dhawan/GAME-ON/)
+Advisors: Prof. Ponnurangam Kumaraguru, Prof. Rajesh Sharma
+- Proposed a novel graph framework that allows for granular interactions across (inter)- and within (intra)- modalities to fuse them early in the framework, decreasing information loss.
+- Our Graph-based approach using scenic graph for images and transformer representations for text nodes outperform by ∼11% sota models on publicly available dataset, with ∼91% fewer parameters than the best comparable baseline.
+
+* * * 
+
+## Legal AI [[code]](https://github.com/mudit-dhawan/HLDC)
+Advisor: Prof. Ponnurangam Kumaraguru, Prof. Ashutosh Modi, Prof. Arnab Bhattacharya
+- Helped release a corpus of ∼900K legal documents in Hindi.
+- Proposed Bail prediction as a Multi-Task Learning Framework which used an auxiliary extractive summarization task to improve the main task’s performance.
+- In training a model for predicting bail for a new district (previously unseen district during training), a Multi-Task end-to-end trained model achieved 78% Accuracy and 77% F1 score, which was around 2% more than our other competitive baselines.
 
 * * *
 
@@ -15,6 +67,15 @@ Advisor: Prof. Rajiv Ratn Shah
 Advisors: Prof. Ponnurangam Kumaraguru and Prof. Srijan Kumar
 - Analyze sentimentally charged tweets to study the effect of the network on the user’s posting activity.
 - Studying the influence and susceptibility of a user based on their online neighborhood and how this network can be leveraged to determine the magnitude (or impact) of potential spreaders of hate or counter-hate on online social media platforms.
+
+* * *
+
+## Multimodal Fake News Detection [[code]](https://github.com/mudit-dhawan/FND) [[thesis]](https://drive.google.com/file/d/1-2MS3Sz4P8XnbP-mpAJrsDp8-wCS4m_-/view?usp=sharing) 
+Advisors: Prof. Ponnurangam Kumaraguru, Prof. Rajiv Ratn Shah
+- We proposed an inter-modality discordance based fake news detection framework based on the hypothesis that fabrication of either modality will lead to dissonance between the modalities.
+- First ones to leverage information from different components of the news article (i.e., headline, body, and multiple images) for multimodal fake news detection.
+- Conducted extensive experiments on the real-world datasets to show that our approach outperforms the state-of-the-art by an average F1-score of 6.3%.
+- Released code to previous Multimodal Fake News detection frameworks to make previous state-of-the-art approaches in the field more accessible [[code]](https://github.com/mudit-dhawan/Multimodal-Fake-News-Detection-Systems)
 
 * * *
 
