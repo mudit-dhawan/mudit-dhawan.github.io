@@ -2,10 +2,10 @@
 title: "Enhancing Tail Performance in Extreme Classifiers by Label Variance Reduction"
 collection: publications
 tag: preprint
-category: 'preprint'
+category: 'conference'
 permalink: /publication/2023-lever
 # date: 2021-12-10
-venue: 'Under review at International Conference on Learning Representations 2024 (ICLR)'
+venue: 'Accepted at at International Conference on Learning Representations 2024 (ICLR)'
 # paperurl: 
 link: 'https://openreview.net/pdf?id=6ARlSgun7J'
 # github: ''
