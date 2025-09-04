@@ -5,7 +5,7 @@ tag: conference
 category: 'conference'
 permalink: /publication/2023-lever
 # date: 2021-12-10
-venue: 'Accepted at at International Conference on Learning Representations 2024 (ICLR)'
+venue: 'Published at International Conference on Learning Representations 2024 (ICLR)'
 # paperurl: 
 link: 'https://openreview.net/pdf?id=6ARlSgun7J'
 # github: ''
