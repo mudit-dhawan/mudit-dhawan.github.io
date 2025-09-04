@@ -1,11 +1,11 @@
 ---
-title: "Accurate and Efficient Cross-encoders for Ranking"
+title: "CROSS-JEM: Accurate and Efficient Cross-encoders for Short-text Ranking Tasks"
 collection: publications
-tag: preprint
-category: 'preprint'
+tag: workshop
+category: 'workshop'
 permalink: /publication/2024-cross-jem
 # date: 2021-12-10
-venue: 'Under review at NeurIPS 2024'
+venue: 'Published at WiNLP ENLP 2024'
 # paperurl: 
 # link: ''
 # github: ''
