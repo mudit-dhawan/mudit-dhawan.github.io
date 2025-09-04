@@ -1,7 +1,7 @@
 ---
 title: "Enhancing Tail Performance in Extreme Classifiers by Label Variance Reduction"
 collection: publications
-tag: preprint
+tag: conference
 category: 'conference'
 permalink: /publication/2023-lever
 # date: 2021-12-10
